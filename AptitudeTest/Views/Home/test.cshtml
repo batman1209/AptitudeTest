@@ -1,0 +1,211 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+
+	<title>ADMIN</title>
+
+	
+
+	
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+	
+</head>
+<body>
+
+
+
+
+    <div class="wrapper">
+        <div class="sidebar" data-image="../assets/img/sidebar-5.jpg">
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="@Url.Action("Teacher","Home")">  
+		
+		<center>
+        <img class="img-circle" src="~/Images/login1.jpg" alt="..." width="100" height="80" />
+		             
+                    </a> 
+								 <center>
+								<b> TEACHER</b>
+                                                                        
+		
+                </div>
+                <ul class="nav">
+				
+
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="pe-7s-plus"></i>
+                            <p>add question</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="pe-7s-pen"></i>
+                            <p>Update question</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="pe-7s-look"></i>
+                            <p>View question</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="pe-7s-close-circle"></i>
+                            <p>delete question</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="@Url.Action("TecPass","Home")">
+                            <i class="pe-7s-config"></i>
+                            <p>change password</p>
+                        </a>
+                    </li>
+                   
+                    <li >
+                        <a class="nav-link " href="@Url.Action("login","Home")">
+                            <i class="pe-7s-power"></i>
+                            <p>logout</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+     <div class="main-panel">
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><b>PLATFORM FOR APTITUDE TEST</b></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                   
+                   
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content" >
+            <div class="container-fluid">
+                <div class="row">
+              <div class="column">
+			   <a href="@Url.Action("Adduser","Home")">	
+				   <image src="~/Images/add.png" class="img-thumbnail" width="200"; height="400" >
+				</a>
+				</div>
+				<div class ="column">
+				<a href="@Url.Action("deleteuser","Home")">
+				   <image src="~/Images/del.png" class="img-thumbnail" width="200"; height="400" >
+				
+				</a>
+				</div>
+				<div class="column">
+				<a href="@Url.Action("Updateuser","Home")">	
+				   <image src="~/Images/edit.png" class="img-thumbnail" width="200"; height="400" >
+				
+				</a>
+				</div>
+				
+			
+			</div>
+			
+			<div class="row">
+              <div class="column">
+			   <a href="#">	
+				   <image src="~/Images/view.png" class="img-thumbnail" width="200"; height="400" >
+				</a>
+				</div>
+				<div class ="column">
+				<a href="@Url.Action("settings","Home")">
+				   <image src="~/Images/sett.jpg" class="img-thumbnail" width="200"; height="400" >
+				
+				</a>
+				</div>
+				<div class="column">
+				<a href="@Url.Action("login","Home")">	
+				   <image src="~/Images/team.png" class="img-thumbnail" width="200"; height="400" >
+				
+				</a>
+				</div>
+				
+			
+			</div>
+            </div>
+        </div>
+     
+	 
+	  <footer class="footer">
+            <div class="container-fluid">
+               
+            </div>
+        </footer>
+
+    </div>
+
+       
+
+
+       
+
+    </div>
+</div>
+
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="~/Scripts/jquery.3.2.1.min.js" type="text/javascript"></script>
+	<script src="~/Scripts/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Charts Plugin -->
+	<script src="~/Scripts/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="~/Scripts/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+	<script src="~/Scripts/light-bootstrap-dashboard.js?v=1.4.0"></script>
+
+	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
+	<script src="~/Scripts/demo.js"></script>
+
+
+</html>

@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Add Question</title>
+
+
+	
+	<link rel="stylesheet" type="text/css"  href="~/Content/css/AddQues.css"/>
+	<script src="~/ckeditor/ckeditor/ckeditor/ckeditor.js"></script>
+	
+	<script>
+        function handleChange() {
+            
+            //var text = document.getElementById("t").value;
+            //alert(text);
+            //var txt = CKEDITOR.on("instanceCreated", function (event) {
+            //    event.editable.on("change", function () {
+            //        $("txt").html(event.editor.getData());
+            //        alert(txt);
+            //    });
+            //});
+            //var txt = CKEDITOR.instances[t].getData();
+            //alert(txt);
+            console.log(CKEDITOR.instances.editable1.getData());
+            
+        }
+    </script>
+		
+</head>
+
+<body>  
+         <div  class="container">
+		 
+		 
+						
+					 
+					 <center><h1>ADD QUESTION</h1></center>
+                     <form class="form-group">
+
+
+
+                         <br>
+                         <label for="inputname"> Question Statement</label>
+                         <br>
+                         <br>
+
+                         @*<div name="editable" class="ScrollStyle1" contenteditable="true" id="questionstatement">
+
+
+        </div>*@
+                         <div class="ScrollStyle1">
+                             <textarea name="editable" contenteditable="true" id="t"></textarea>
+                         </div>
+
+
+                         <script>
+
+                             CKEDITOR.disableAutoInline = true;
+
+                             var editor = CKEDITOR.inline('editable');
+
+                             ////var txt = CKEDITOR.on("instanceCreated", function (event) {
+                             ////    event.editable.on("change", function () {
+                             ////        $("txt").html(event.editor.getData());
+                             ////        alert(txt);
+                             ////    });
+                             ////});
+                             //var txt = CKEDITOR.instances[t].getData();
+                             //alert(txt);
+                         </script>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+
+                         <br>
+                         <br>
+                         <br>
+
+                         <div class="form-row">
+                             <div class="col-sm-3.75">
+                                 <label for="inputname">Option A </label>
+                                 <br>
+
+                                 <div class="ScrollStyle2">
+
+                                     <textarea name="editable1" id="test" contenteditable="true"></textarea>
+
+                                 </div>
+
+                                 <script>
+
+                                     CKEDITOR.disableAutoInline = true;
+
+                                     var editor = CKEDITOR.inline('editable1');
+                                 </script>
+
+                             </div>
+
+                             <div class="col-sm-4">
+
+                                 <label for="inputname"> Option B </label>
+                                 <br>
+                                 <div class="ScrollStyle3">
+
+                                     <textarea name="editable2" contenteditable="true"></textarea>
+
+                                 </div>
+                                 <script>
+
+                                     CKEDITOR.disableAutoInline = true;
+
+                                     var editor = CKEDITOR.inline('editable2');
+                                 </script>
+
+                             </div>
+
+
+
+                         </div>
+
+                         <br>
+
+
+                         <div class="form-row">
+                             <div class="col-sm-3.75">
+                                 <label for="inputname">Option C </label>
+                                 <br>
+
+                                 <div class="ScrollStyle4">
+                                     <textarea name="editable3" contenteditable="true"></textarea>
+                                 </div>
+
+                                 <script>
+
+                                     CKEDITOR.disableAutoInline = true;
+
+                                     var editor = CKEDITOR.inline('editable3');
+                                 </script>
+
+                             </div>
+
+                             <div class="col-sm-4">
+
+                                 <label for="inputname"> Option D </label>
+                                 <br>
+                                 <div class="ScrollStyle5">
+
+                                     <textarea name="editable4" contenteditable="true"></textarea>
+
+                                 </div>
+                                 <script>
+
+                                     CKEDITOR.disableAutoInline = true;
+
+                                     var editor = CKEDITOR.inline('editable4');
+                                 </script>
+
+                             </div>
+                         </div>
+
+                         <br>
+
+
+
+                         <label for="inputname"> Correct Option  </label>
+                         <br>
+                         <div class="ScrollStyle6">
+
+                             <textarea name="editable5" contenteditable="true"></textarea>
+
+                         </div>
+                         <script>
+
+                             CKEDITOR.disableAutoInline = true;
+
+                             var editor = CKEDITOR.inline('editable5');
+                         </script>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+
+                         <div class="form-row">
+                             <div class="col-sm-3">
+
+                                 <label for="inputState">Subject</label>
+                                 <br>
+                                 <select id="inputState" class="form-control">
+                                     <option selected>Choose...</option>
+                                     <option>1</option>
+                                     <option>2</option>
+                                     <option>3</option>
+                                     <option>4</option>
+                                 </select>
+                             </div>
+
+                             <div class="col-sm-3">
+
+                                 <label>Difficulty Level</label>
+                                 <br>
+                                 <select class="form-control" id="sel">
+                                     <option selected>Choose...</option>
+                                     <option>Easy</option>
+                                     <option>Medium</option>
+                                     <option>Difficult</option>
+
+                                 </select>
+                             </div>
+                         </div>
+                         <br>
+                         <br>
+                         <br>
+
+
+                         <button type="submit" class="btn btn-secondary btn-lg" id="b1" onclick="handleChange()">Submit</button>
+                         <br>
+                         <button type="submit" class="btn btn-secondary btn-lg" id="b2">Cancel</button>
+                         <br>
+                         <button type="submit" class="btn btn-secondary btn-lg" id="b3">Exit</button>
+                         <br>
+                     </form>
+
+		                  
+			</div>
+			
+</body>		

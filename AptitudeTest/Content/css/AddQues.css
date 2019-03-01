@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+textarea {
+    overflow: scroll;
+    height: 100px;
+}
+
+
+
+.ScrollStyle1 {
+    border: 3px solid #5F9EA0;
+    float: left;
+    width: 600px;
+    height: 150px;
+    overflow-y: scroll;
+    background-color: #F5F5DC;
+}
+.ScrollStyle2{
+border: 3px solid #5F9EA0; 
+float: left;
+width:300px;
+height: 70px;
+   overflow-y: scroll;
+   background-color: #F5F5DC;
+}
+.ScrollStyle3{
+border: 3px solid #5F9EA0; 
+float: left;
+width:300px;
+height: 70px;
+   overflow-y: scroll;
+   background-color: #F5F5DC;
+}
+.ScrollStyle4{
+border: 3px solid #5F9EA0; 
+float: left;
+width:300px;
+height: 70px;
+   overflow-y: scroll;
+   background-color: #F5F5DC;
+}
+.ScrollStyle5{
+border: 3px solid #5F9EA0; 
+float: left;
+width:300px;
+height: 70px;
+   overflow-y: scroll;
+   background-color: #F5F5DC;
+}
+.ScrollStyle6{
+border: 3px solid #5F9EA0; 
+float: left;
+width:610px;
+height: 70px;
+  overflow-y: scroll;
+  background-color: #F5F5DC;
+}
+
+body{
+	font-family: 'Roboto' , sans-serif;
+	background-size:cover;
+	background-color:#000000;
+}
+h1{
+	margin-top:70px;
+	color:#fff;
+	font-family:'Font Awesome\ 5 Free';
+	text-align:center;
+	font-size:50px;
+    	
+}
+label{
+	color:#fff;
+	font-family:'Font Awesome\ 5 Free';
+	font-size:22px;
+	
+}
+
+.form-group{
+	margin-top:30px;
+	margin-left:70px;
+	
+	margin-bottom:10px;
+	
+}
+
+
+#b1{
+	background-color:#4682B4;
+	color:#F0F8FF;
+	font-size:19px;
+	padding: 7px 14px;
+	border-radius:0px;
+	border-bottom: 4px solid #219882;
+	position: absolute;
+    right: 250px;
+    top: 370px;
+	
+}
+#b2{
+	background-color:#4682B4;
+	color:#F0F8FF;
+	font-size:19px;
+	padding: 7px 14px;
+	border-radius:0px;
+	border-bottom: 4px solid #219882;
+	position: absolute;
+    right: 250px;
+    top: 450px;
+	
+}
+#b3{
+	background-color:#4682B4;
+	color:#F0F8FF;
+	font-size:19px;
+	padding: 7px 14px;
+	border-radius:0px;
+	border-bottom: 4px solid #219882;
+	position: absolute;
+    right: 250px;
+    top: 530px;
+	width:90px;
+	
+}
+.btn:hover, .btn:focus{
+	background-color:#25a890 !important;
+	border-bottom:4px solid #25a890 !important;
+	
+}
+

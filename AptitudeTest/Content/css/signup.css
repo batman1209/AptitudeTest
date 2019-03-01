@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto' , sans-serif;
+	background-size:cover;
+}
+#ui{
+	background-color:#333;
+	padding:30px;
+	margin-top:50px;
+	border-radius:10px;
+	opacity:0.9;
+	
+}
+
+#ui label{
+	color:#fff;
+	font-family:'Font Awesome\ 5 Free';
+	
+}
+
+h1{
+	color:#fff;
+	font-family:'Font Awesome\ 5 Free';
+	text-align:center;
+	
+}
+.form-control
+{
+	font-family:'Font Awesome\ 5 Free';
+}
+.name::before
+{
+	 font-family:'Font Awesome\ 5 Free';
+	 content:"\f007";
+	 position:absolute;
+	 font-size:22px;
+	 color:#555e60;
+	 padding-left:6px;
+	 padding-top:4px;
+	 
+	 
+}
+.mail::before{
+	font-family:'Font Awesome\ 5 Free';
+	 content:"\f0e0";
+	 position:absolute;
+	 font-size:22px;
+	 color:#555e60;
+	 padding-left:6px;
+	 padding-top:4px;
+	
+	
+}
+
+.pass::before{
+	font-family:'Font Awesome\ 5 Free';
+	 content:"\f023";
+	 position:absolute;
+	 font-size:22px;
+	 color:#555e60;
+	 padding-left:6px;
+	padding-top:4px;
+	
+}
+
+.pass1::before{
+	font-family:'Font Awesome\ 5 Free';
+	 content:"\f023";
+	 position:absolute;
+	 font-size:22px;
+	 color:#555e60;
+	 padding-left:6px;
+	 padding-top:4px;
+	
+	
+}
+
+.form-group{
+	margin-bottom:25px;
+}
+.form-group input{
+	height:42px;
+	border-radius: 5px;
+	border:0;
+	font-size:18px;
+	padding-left: 48px;
+}
+
+
+.btn{
+	background-color:#4682B4;
+	color:#F0F8FF;
+	font-size:19px;
+	padding: 7px 14px;
+	border-radius:5px;
+	border-bottom: 4px solid #219882;
+}
+.btn:hover, .btn:focus{
+	background-color:#25a890 !important;
+	border-bottom:4px solid #25a890 !important;
+	
+}
+
